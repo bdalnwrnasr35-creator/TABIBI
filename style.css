@@ -104,7 +104,8 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #4a5568;
+  background: #0f3d3e;
+;
     color: white ;
     font-weight : bold;
     margin:0 auto 15px;
@@ -113,7 +114,8 @@ body{
     align-items: center;
 }
 .circle.active{
-    background-color: orangered;
+ background-color: #f4a261;
+;
 }
 .card:nth-child(1),.card:nth-child(2).circle{
     flex: 0 0 40%;
@@ -134,7 +136,8 @@ button{
     margin-top: 40px;
     padding: 12px 30px;
     border: none;
-    background-color: #2f3e4e;
+  background-color: #142f2f;
+;
     color: white;
     border-radius: 8px;
     font-size: 14px;
