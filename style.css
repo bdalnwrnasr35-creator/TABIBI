@@ -12,6 +12,7 @@ body{
     width: 35px ;
     display: block;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 @media( max-width:768px){
     .cards{
@@ -64,10 +65,12 @@ body{
     box-shadow : 0 10px 15px rgba(0,0,0,0.2);
    max-width: 420px;
     min-height: 120px;
-    padding:20px
+    padding:20px;
+     transition: all 0.3s ease;
 }
 .card:hover{
     transform: translatey(-5px);
+    transform:scale(1.1);
 }
 .card h3{
     color: #2d3748;
